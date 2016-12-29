@@ -1,0 +1,170 @@
+{
+  "intents": [
+    {
+      "intent": "CreateGameIntent"
+    },
+    {
+      "intent": "CreateTwoPlayerGameIntent",
+      "slots": [
+        {
+          "name": "first",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "second",
+          "type": "LIST_OF_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "CreateThreePlayerGameIntent",
+      "slots": [
+        {
+          "name": "first",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "second",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "third",
+          "type": "LIST_OF_NAMES"
+        }
+      ]
+    },
+        {
+      "intent": "CreateFourPlayerGameIntent",
+      "slots": [
+        {
+          "name": "first",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "second",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "third",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "forth",
+          "type": "LIST_OF_NAMES"
+        }
+      ]
+    },
+            {
+      "intent": "CreateFivePlayerGameIntent",
+      "slots": [
+        {
+          "name": "first",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "second",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "third",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "forth",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "fith",
+          "type": "LIST_OF_NAMES"
+        }
+      ]
+    },
+                {
+      "intent": "CreateSixPlayerGameIntent",
+      "slots": [
+        {
+          "name": "first",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "second",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "third",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "forth",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "fith",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "sixth",
+          "type": "LIST_OF_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "SetPointsTotalIntent",
+      "slots": [
+        {
+          "name": "name",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "number",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "DecreasePointsIntent",
+      "slots": [
+        {
+          "name": "name",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "number",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "IncreasePointsIntent",
+      "slots": [
+        {
+          "name": "name",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "number",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "MostPointsIntent"
+    },
+    {
+      "intent": "LeastPointsIntent"
+    },
+    {
+      "intent": "TellAllPointsIntent"
+    },
+    {
+      "intent": "TellPlayerPointsIntent",
+        "slots": [
+        {
+          "name": "name",
+          "type": "LIST_OF_NAMES"
+        }
+      ]
+    }
+  ]
+}
+

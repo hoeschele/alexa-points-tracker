@@ -1,0 +1,29 @@
+CreateGameIntent start a new  game
+CreateGameIntent create a new game
+CreateTwoPlayerGameIntent the players are {first} and {second}
+CreateThreePlayerGameIntent the players are {first} {second} and {third}
+CreateFourPlayerGameIntent the players are {first} {second} {third} and {forth}
+CreateFivePlayerGameIntent the players are {first} {second} {third} {forth} and {fith}
+CreateSixPlayerGameIntent the players are {first} {second} {third} {forth} {fith} and {sixth}
+SetPointsTotalIntent set point total for {name} to {number}
+SetPointsTotalIntent set {name} points to {number}
+SetPointsTotalIntent set {name} point total to {number}
+SetPointsTotalIntent set {name} to {number}
+DecreasePointsIntent reduce {name} points by {number}
+DecreasePointsIntent reduce {name} point total by {number}
+DecreasePointsIntent {name} loses {number}
+DecreasePointsIntent {name} loses {number} points
+IncreasePointsIntent {name} gains {number}
+IncreasePointsIntent {name} gains {number} points
+DecreasePointsIntent decrease {name} points by {number}
+DecreasePointsIntent decrease {name} point total by {number}
+IncreasePointsIntent increase {name} points by {number}
+IncreasePointsIntent increase {name} point total by {number}
+TellPlayerPointsIntent what is {name} point total
+TellPlayerPointsIntent what is {name} points
+TellPlayerPointsIntent how many points does {name} have
+TellAllPointsIntent what are the point totals
+TellAllPointsIntent who has how many points
+LeastPointsIntent who has the least points
+MostPointsIntent who has the most points
+
